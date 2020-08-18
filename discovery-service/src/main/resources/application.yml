@@ -1,0 +1,16 @@
+spring:
+  application:
+    name:insta-discovery
+  security:
+    user:
+      name: root
+      password: 123456
+      roles: USER
+
+server:
+  port:8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
